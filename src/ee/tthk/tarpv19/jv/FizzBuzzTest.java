@@ -20,4 +20,9 @@ public class FizzBuzzTest {
 		FizzBuzz fz = new FizzBuzz();
 		assertEquals(100, fz.getNumbers().length);
 	}
+	@Test
+	public void mupltiplesOfThree() {
+		FizzBuzz fb = new FizzBuzz();
+		assertEquals("fizz", fb.fizzbuzz(3));
+	}
 }
