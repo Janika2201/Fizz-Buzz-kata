@@ -30,4 +30,9 @@ public class FizzBuzzTest {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("buzz", fb.fizzbuzz(5));
 	}
+	@Test
+	public void mupltiplesOfFive() {
+		FizzBuzz fb = new FizzBuzz();
+		assertEquals("fizzbuzz", fb.fizzbuzz(15));
+	}
 }
