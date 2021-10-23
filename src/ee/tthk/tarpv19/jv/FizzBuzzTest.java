@@ -35,5 +35,10 @@ public class FizzBuzzTest {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("fizzbuzz", fb.fizzbuzz(15));
 	}
+	@Test
+	public void zeroreturn(){
+		FizzBuzz fb = new FizzBuzz();
+		assertEquals("0", fb.fizzbuzz(0));
+	}
 	
 }
