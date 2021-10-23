@@ -45,4 +45,9 @@ public class FizzBuzzTest {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("buzz", fb.fizzbuzz(10));
 	}
+	@Test
+	public void returnFizzForSix() {
+		FizzBuzz fb = new FizzBuzz();
+		assertEquals("fizz", fb.fizzbuzz(6));
+	}
 }
