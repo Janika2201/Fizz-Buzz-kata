@@ -13,7 +13,10 @@ private int[] numbers;
 		return numbers;
 	}
 	public String fizzbuzz(int value) {
-		 if (value % 3 == 0 || value % 5 == 0) {
+		if(value == 0){
+			return Integer.toString(value);
+		}
+		else if (value % 3 == 0 || value % 5 == 0) {
 			if (value % 3 == 0 && value % 5 == 0) {
 				return "fizzbuzz";
 			} else if (value % 3 == 0) {
