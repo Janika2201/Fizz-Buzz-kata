@@ -13,7 +13,11 @@ private int[] numbers;
 		return numbers;
 	}
 	public String fizzbuzz(int value) {
-		return "";
+		if (value % 5 == 0) {
+			return "buzz";
+		}
+		else
+			return "";
 	}
 }
 
