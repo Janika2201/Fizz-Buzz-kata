@@ -20,39 +20,10 @@ public class FizzBuzzTest {
 		FizzBuzz fz = new FizzBuzz();
 		assertEquals(100, fz.getNumbers().length);
 	}
-	@Test
-	public void mupltiplesOfThree() {
-		FizzBuzz fb = new FizzBuzz();
-		assertEquals("fizz", fb.fizzbuzz(3));
-	}
+	
 	@Test
 	public void mupltiplesOfFive() {
 		FizzBuzz fb = new FizzBuzz();
-		assertEquals("buzz", fb.fizzbuzz(7));
-	}
-	@Test
-	public void mupltiplesOfFivteen() {
-		FizzBuzz fb = new FizzBuzz();
-		assertEquals("fizzbuzz", fb.fizzbuzz(15));
-	}
-	@Test
-	public void zeroreturn(){
-		FizzBuzz fb = new FizzBuzz();
-		assertEquals("0", fb.fizzbuzz(0));
-	}
-	@Test
-	public void ReturnbuzzforTen() {
-		FizzBuzz fb = new FizzBuzz();
-		assertEquals("buzz", fb.fizzbuzz(10));
-	}
-	@Test
-	public void returnFizzForSix() {
-		FizzBuzz fb = new FizzBuzz();
-		assertEquals("fizz", fb.fizzbuzz(6));
-	}
-	@Test
-	public void returnBuzzForOneHundred() {
-		FizzBuzz fb = new FizzBuzz();
-		assertEquals("buzz", fb.fizzbuzz(100));
+		assertEquals("buzz", fb.fizzbuzz(5));
 	}
 }
